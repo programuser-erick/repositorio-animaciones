@@ -240,7 +240,6 @@
     }
 
     .seccion__titulo{
-        color: gray;
         text-align: center;
         padding-top: 35px;
         padding-bottom: 15px;
@@ -273,7 +272,6 @@
     .productos__parrafo{
     text-align: center;
     font-weight: bold;
-    color: gray;
     font-size: 19px;
     }
 
@@ -317,7 +315,6 @@
     } 
 
     .logo__texto{
-    color: gray;
     text-align: center;
     font-size: 14px;
     }
@@ -616,7 +613,6 @@
     .text__parrafo{
         text-align: center;
         margin-right: 16px;
-        color: gray;
     }
     
     .objetivos__titulo{
@@ -648,7 +644,6 @@
         padding: 15px;
         font-size: 18px;
         text-align: center;
-        color: gray;
         border-top: solid 5px red ;
     }
 }
@@ -660,6 +655,10 @@
     .grilla {
         grid-template-rows: 125px 670px auto 230px;
         grid-template-columns: auto auto auto;
+    }
+
+    section{
+        background-image: linear-gradient(45deg, black, transparent);
     }
 
     .text__title{
